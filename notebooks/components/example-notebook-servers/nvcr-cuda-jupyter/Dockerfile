@@ -2,7 +2,7 @@
 # NOTE: Use the Makefiles to build this image correctly.
 #
 
-ARG BASE_IMG=nvcr-cuda-jupyter:1.1
+ARG BASE_IMG=nvcr-cuda-jupyter:1.0
 FROM $BASE_IMG
 
 ARG TARGETARCH
